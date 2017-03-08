@@ -28,6 +28,11 @@ frappe.query_reports["Transport Bill Generator Report"] = {
             fieldtype: "Date",
             default: get_today()
         },
+        {
+            fieldname:"show_total",
+            label: __("Show Total"),
+            fieldtype: "Check",
+        },
 
 	]
 }
