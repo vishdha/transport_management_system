@@ -40,6 +40,7 @@ def get_columns(filters):
         ]
 
 #Display Data in  Wieghbridge Ticket Report.
+#Display Data in  Wieghbridge Ticket Report.
 def get_entries(filters):
     date_field = "date"
     conditions, values = get_conditions(filters, date_field)
