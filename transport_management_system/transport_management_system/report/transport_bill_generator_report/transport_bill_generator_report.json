@@ -1,5 +1,5 @@
 {
- "add_total_row": 1, 
+ "add_total_row": 0, 
  "apply_user_permissions": 1, 
  "creation": "2017-03-05 21:13:24.919258", 
  "disabled": 0, 
@@ -7,7 +7,7 @@
  "doctype": "Report", 
  "idx": 0, 
  "is_standard": "Yes", 
- "modified": "2017-03-05 21:13:24.919258", 
+ "modified": "2017-03-17 16:03:44.134921", 
  "modified_by": "Administrator", 
  "module": "Transport Management System", 
  "name": "Transport Bill Generator Report", 

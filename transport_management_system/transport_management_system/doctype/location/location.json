@@ -1,6 +1,6 @@
 {
  "allow_copy": 0, 
- "allow_import": 0, 
+ "allow_import": 1, 
  "allow_rename": 0, 
  "autoname": "field:location", 
  "beta": 0, 
@@ -79,7 +79,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-03-05 21:02:29.734655", 
+ "modified": "2017-03-19 22:07:47.480391", 
  "modified_by": "Administrator", 
  "module": "Transport Management System", 
  "name": "Location", 
