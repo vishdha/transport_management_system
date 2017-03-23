@@ -110,4 +110,8 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "transport_management_system.event.get_events"
 # }
-
+fixtures = [ {"dt": "Custom Field", "filters":[["name", "in", [
+                    'Lead-company_website', 'Lead-source_city_address', 'Lead-destination_city_address',
+                    'Lead-section_break_centres','Lead-number_of_item','Lead-weight',
+                    'Lead-last_name', 'Lead-first_name',
+                    ]]]}]
