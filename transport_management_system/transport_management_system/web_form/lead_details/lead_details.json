@@ -1,0 +1,181 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 0, 
+ "allow_incomplete": 0, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "amount_based_on_field": 0, 
+ "creation": "2017-03-22 23:06:43.816479", 
+ "currency": "INR", 
+ "doc_type": "Lead", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "introduction_text": "Get quotes about Transportation charges.", 
+ "is_standard": 1, 
+ "login_required": 0, 
+ "max_attachment_size": 0, 
+ "modified": "2017-03-23 09:30:08.155759", 
+ "modified_by": "Administrator", 
+ "module": "Transport Management System", 
+ "name": "lead-details", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "lead-details", 
+ "show_sidebar": 0, 
+ "sidebar_items": [], 
+ "success_url": "/lead-details", 
+ "title": "Lead Details", 
+ "web_form_fields": [
+  {
+   "fieldname": "lead_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Enter Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "mobile_no", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Enter Mobile Number.", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldtype": "Column Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "last_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Enter Last Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "email_id", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Enter Email ID", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Email", 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "label": "", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "company_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Company Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldtype": "Column Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "description": "Optional", 
+   "fieldname": "company_website", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Compnay Website", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "label": "Ente Inforamtion About material / Item / Machine", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "source_city_address", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Enter Source City Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "number_of_item", 
+   "fieldtype": "Int", 
+   "hidden": 0, 
+   "label": "Number Of Items", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldtype": "Column Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "destination_city_address", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Enter Destination City Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 1
+  }, 
+  {
+   "fieldname": "weight", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Weight Detail", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }
+ ]
+}

@@ -19,8 +19,8 @@ app_license = "MIT"
 # app_include_js = "/assets/transport_management_system/js/transport_management_system.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/transport_management_system/css/transport_management_system.css"
-# web_include_js = "/assets/transport_management_system/js/transport_management_system.js"
+web_include_css = "/assets/transport_management_system/css/transport_management_system.css"
+web_include_js = "/assets/transport_management_system/js/transport_management_system.js"
 
 # Home Pages
 # ----------
@@ -114,4 +114,4 @@ fixtures = [ {"dt": "Custom Field", "filters":[["name", "in", [
                     'Lead-company_website', 'Lead-source_city_address', 'Lead-destination_city_address',
                     'Lead-section_break_centres','Lead-number_of_item','Lead-weight',
                     'Lead-last_name', 'Lead-first_name',
-                    ]]]}]
+                    ]]]},"Property Setter"]
