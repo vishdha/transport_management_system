@@ -64,7 +64,7 @@
         {% for(var i=0, l=data.length; i<l; i++) { %}
             <tr>
                 <td style="text-align: center;">{%= i+1 %}</td>
-                <td>{%= dateutil.str_to_user(data[i][__("Date")]) || Total %}</td>
+                <td>{%= dateutil.str_to_user(data[i][__("Date")]) || __("Total") %}</td>
                 <td>{%= data[i][__("Challan Number")] %}</td>
                 <td>{%= data[i][__("Party Information")] %}</td>
                 <td>{%= data[i][__("Delivery Type")] %}</td>
