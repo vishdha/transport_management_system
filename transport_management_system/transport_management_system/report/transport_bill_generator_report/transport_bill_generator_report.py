@@ -12,11 +12,8 @@ def execute(filters=None):
     columns = get_columns(filters)
     entries = get_entries(filters)
     data = []
-    total_wbt_net_weight = 0.0
 
-    # To find Total of net weight at the end of report.
     for d in entries:
-    #   total_wbt_net_weight += (d.wbt_net_weight)
 
         data.append([
             d.date, d.challan_number, d.party_information,d.delivery_type,
@@ -25,7 +22,6 @@ def execute(filters=None):
 
     return columns, data
 
-#Display Column row from Wieghbridge Ticket Report.
 def get_columns(filters):
     if not filters.get("vehicle"):
         msgprint(_("Please select the Vehicle first"), raise_exception=1)
@@ -39,8 +35,6 @@ def get_columns(filters):
         _("Rate") + ":Int:80"
         ]
 
-#Display Data in  Wieghbridge Ticket Report.
-#Display Data in  Wieghbridge Ticket Report.
 def get_entries(filters):
     date_field = "date"
     conditions, values = get_conditions(filters, date_field)
@@ -58,15 +52,9 @@ def get_entries(filters):
 
     return entries
 
-# Start Wrok Here-- after break
 def get_conditions(filters, date_field):
     conditions = [""]
     values = []
-
-    # if filters.get("sv_vehicle"):
-    #   sv_registration_number = frappe.get_value("Vehicle", filters.get("sv_vehicle"),["sv_registration_number"])
-    #   conditions.append("exists(select name from `tabVehicle` where name = sv_registration_number)")
-
 
     if filters.get("from_date"):
         conditions.append("vt.{0}>=%s".format(date_field))
